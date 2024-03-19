@@ -9,8 +9,7 @@ entity full_adder_vhdl_code is
  Cout : out STD_LOGIC);
 end full_adder_vhdl_code;
  
-architecture gate_level of full_adder_vhdl_code is
- 
+architecture gate_level of full_adder_vhdl_code is 
 begin
  
  S <= A XOR B XOR Cin ;
